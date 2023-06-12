@@ -1,0 +1,70 @@
+ 
+ 
+ 
+body{
+    margin:0;
+	padding:0;
+	background-image:url("images/back14.jpg");
+	height:100vh;
+	background-size:cover;
+}
+
+
+hr {
+	  border: 55px solid #800080;
+}
+
+.heading{
+	position:absolute;
+	top:19%;
+	left:30%;
+	font-size:40px;
+	transform:translate(-50%,-50%);
+	font-family: 'Jost', sans-serif;
+	color:#E5E4E2;
+}
+
+.cont {
+	color:white;
+	text-decoration:none;
+	padding: 10px 25px;
+	margin:0 px;
+	align-items:center;
+	justify-content:center;
+}
+.cont ul {
+	list-style-type:none;
+}
+.cont{
+	position:absolute;
+	top:210%;
+	left:30%;
+	font-size:30px;
+	transform:translate(-50%,-50%);
+	font-family: 'poppins', sans-serif;
+	color:#E5E4E2;
+	border: 1px solid #fff;
+	width:470px;
+	padding: 10px 10px;
+	align-items:center;
+	
+}
+
+.glow{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+    animation: glow 1s ease-in-out infinite alternate;
+	postion:fixed;
+	font-family: 'Poppins', sans-serif;
+}
+
+@-webkit-keyframes glow {
+from {
+text-shadow: 0 0 10px #fff, 0 0 20px #B54EC0, 0 0 30px #B54EC0, 0 0 40px #B54EC0, 0 0 50px #B54EC0, 0 0 60px #B54EC0;
+}
+to {
+	text-shadow:  0 0 50px #280137, 0 0 40px #FF10F0, 0 0 50px #280137., 0 0 60px #280137., 0 0 70px #280137., 0 0 80px #280137.;
+ }

@@ -1,0 +1,360 @@
+<!doctype html>
+<html  lang="en"> 
+<head>
+   <meta charset="UTF-8">
+   <title> Quiz</title>
+   <link rel="stylesheet" href="newstylequiz.css">
+
+   <link rel="stylesheet" href="navbar.css">
+   <link rel="icon" type="image/x-icon" href="images/icon2.png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+   <style type="text/css">
+    
+  /*style for logo*/
+  .glow{
+     font-size: 30px;
+     color: #fff;
+     margin-left: 10px;
+     margin-top: 10px;
+     text-align: left;
+     animation: glow 1s ease-in-out infinite alternate;
+     
+	  
+     }
+
+    @-webkit-keyframes glow {
+    from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #B54EC0, 0 0 30px #B54EC0, 0 0 40px #B54EC0, 0 0 50px #B54EC0, 0 0 60px #B54EC0;
+    }
+    to {
+    text-shadow:  0 0 50px rgb(44, 35, 61), 0 0 40px #FF10F0, 0 0 50px #280137, 0 0 60px #280137, 0 0 70px #280137, 0 0 80px #280137;
+    }
+    }
+    </style>
+  
+  
+</head>
+<body>
+
+   <div class="navigationbar">
+    <h2 class="glow">BEYONCÉ</h2>
+    <nav class="nav">
+    <div class ="navbar">
+      <ul>
+        <div class="icon">
+          
+          	<li><a href ="homepage.html"  class ="box"><i class="fa fa-fw fa-home " id="n"></i>   Home</a></li>
+					<li><a href ="NewQuiz.html" class ="box "><i class="fa fa-trophy "id ="n"></i>  Quiz</a></li>
+					<li><a href ="query.html" class ="box "><i class="fa fa-question-circle "id="n"  ></i>   Query form</a></li>
+					<li><a href ="prodcuts.html" class ="box "><i class="fa fa-shopping-cart " id="n"></i>  Shop</a></li>				
+					<li><a href ="Student Details.html "class ="box "><i class="fa fa-users "id="n" ></i> About us</a></li>			
+					<li><a href ="# "class ="box "><i class="fa fa-chevron-circle-down" id="n"></i> Extra content</a>
+					<ul>
+						<li><a href ="extraContent.html"  class ="box"> Student 1</a></li>
+						<li><a href ="extra.html" class ="box ">Student 2</a></li>
+						<li><a href ="Student 3 extra content.html" class ="box ">Student 3</a></li>
+						<li><a href ="aboutus.html" class ="box "> Student 4</a></li>
+          </ul>
+        </div>
+      </ul>
+    </div>
+    </nav>
+    </div>
+
+    <div class="quiz">
+    <form name="quizcontent" id="quizcontent">
+        <div class="btn">
+            <input type="button" class="str_btn" onclick="startquiz();" value="Start Quiz">
+        </div>
+        <div class="container">
+                <div class="header">
+                    <p class="question">What was the name of Beyoncé's first solo album?</p>
+                </div>
+                <div >
+                    <input type="radio" name="question1" id="q11" value="1">
+                    <label for="q11" >Dangerously In Love</label><br>
+                    <input type="radio" name="question1" id="q12" value="2">
+                    <label for="q12" >4</label><br>
+                    <input type="radio" name="question1" id="q13" value="3">
+                    <label for="q13" >Lemonade</label><br>
+                    <input type="radio" name="question1" id="q14" value="4">
+                    <label for="q14" >Beyoncé</label><br>
+                </div>    
+                <span class="feedback"></span>       
+                <div class="btn">
+                  <input type="button"  class="nxt_btn" onclick="next(1);" value="Next">
+                </div>
+        </div>
+
+        <div class="container">
+                <div class="header">
+                    <p class="question">In 2001, what did Beyoncé become the first black woman to win?</p>
+                </div>
+                <div >
+                    <input type="radio" name="question2" id="q21" value="1">
+                    <label for="q21" >Artist of the Year Award</label><br>
+                    <input type="radio" name="question2" id="q22" value="2">
+                    <label for="q22" >Pop Songwriter of the Year Award</label><br>
+                    <input type="radio" name="question2" id="q23" value="3">
+                    <label for="q23" >Best girlgroup the Year Award</label><br>
+                    <input type="radio" name="question2" id="q24" value="4">
+                    <label for="q24" >Album of the Year Award</label><br>                   
+                </div>
+                <span class="feedback"></span>
+                <div class="btn">
+                    <input type="button" class="nxt_btn" onclick="next(2);" value="Next">
+                </div>
+        </div>
+
+        <div class="container">
+                <div class="header">
+                    <p class="question"> How many Grammy Awards Wins has she had ?</p>
+                </div>
+                <div>
+                    <input type="radio" name="question3" id="q31" value="1">
+                    <label for="q31" >25</label><br>
+                    <input type="radio" name="question3" id="q32" value="2">
+                    <label for="q32" >21 </label><br>
+                    <input type="radio" name="question3" id="q33" value="3">
+                    <label for="q33" >22</label><br>
+                    <input type="radio" name="question3" id="q34" value="4">
+                    <label for="q34" >30</label><br>       
+                </div>
+                <span class="feedback"></span>
+                <div class="btn">
+                    <input type="button"  class="nxt_btn" onclick="next(3);" value="Next">
+                </div>
+        </div>
+
+        <div class="container">
+                <div class="header">
+                    <p class="question">What is the number of records she has sold worldwide ?</p>
+                </div>
+                <div >
+                    <input type="radio" name="question4" id="q41" value="1">
+                    <label for="q41" >118 Million</label><br>
+                    <input type="radio" name="question4" id="q42" value="2">
+                    <label for="q42" >200 Million </label><br>
+                    <input type="radio" name="question4" id="q43" value="3">
+                    <label for="q43" >100 Million</label><br>
+                    <input type="radio" name="question4" id="q44" value="4">
+                    <label for="q44" >50 Million</label><br>   
+                </div>
+                <span class="feedback"></span>
+                <div class="btn">
+                    <input type="button"  class="nxt_btn" onclick="next(4);" value="Next">
+                </div>
+        </div>
+
+        <div class="container">
+            <div class="header">
+                <p class="question">What is the name of the Beyoncé's clothing brand ?</p>
+            </div>
+            <div >
+                <input type="radio" name="question5" id="q51" value="1">
+                <label for="q51" >Fenti</label><br>
+                <input type="radio" name="question5" id="q52" value="2">
+                <label for="q52" >Bulgari</label><br>
+                <input type="radio" name="question5" id="q53" value="3">
+                <label for="q53" >Dior</label><br>
+                <input type="radio" name="question5" id="q54" value="4">
+                <label for="q54" >Ivy Park</label><br>     
+            </div>
+            <span class="feedback"></span>
+            <div class="btn">
+                <input type="button"  class="nxt_btn" onclick="next(5);" value="Next">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="header">
+                <p class="question">Which is one of the charities Beyoncé created?</p>
+            </div>
+            <div >
+                <input type="radio" name="question6" id="q61" value="1">
+                <label for="q61" >Survivor Foundation</label><br>
+                <input type="radio" name="question6" id="q62" value="2">
+                <label for="q62" >Show Me Campaign</label><br>
+                <input type="radio" name="question6" id="q63" value="3">
+                <label for="q63" >Keep a Child Alive</label><br>
+                <input type="radio" name="question6" id="q64" value="4">
+                <label for="q64" >REFORM Alliance</label><br>     
+            </div>
+            <span class="feedback"></span>
+            <div class="btn">
+                <input type="button"  class="nxt_btn" onclick="next(6);" value="Next">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="header">
+                <p class="question">What was Beyonce's debut single?</p>
+            </div>
+            <div >
+                <input type="radio" name="question7" id="q71" value="1">
+                <label for="q71" >Crazy in Love</label><br>
+                <input type="radio" name="question7" id="q72" value="2">
+                <label for="q72" >Deja Vu</label><br>
+                <input type="radio" name="question7" id="q73" value="3">
+                <label for="q73" >Partition</label><br>
+                <input type="radio" name="question7" id="q74" value="4">
+                <label for="q74" >Beautiful Liar</label><br>     
+            </div>
+            <span class="feedback"></span>
+            <div class="btn">
+                <input type="button"  class="nxt_btn" onclick="next(7);" value="Next">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="header">
+                <p class="question">What is the name of the song from album "4"?</p>
+            </div>
+            <div >
+                <input type="radio" name="question8" id="q81" value="1">
+                <label for="q81" >Say my Name</label><br>
+                <input type="radio" name="question8" id="q82" value="2">
+                <label for="q82" >Run the World</label><br>
+                <input type="radio" name="question8" id="q83" value="3">
+                <label for="q83" >Love on Top</label><br>
+                <input type="radio" name="question8" id="q84" value="4">
+                <label for="q84" >Irreplaceable</label><br>     
+            </div>
+            <span class="feedback"></span>
+            <div class="btn">
+                <input type="button"  class="nxt_btn" onclick="next(8);" value="Next">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="header">
+                <p class="question">What is the name of her upcoming album?</p>
+            </div>
+            <div >
+                <input type="radio" name="question9" id="q91" value="1">
+                <label for="q91" >I Am... Sasha Fierce</label><br>
+                <input type="radio" name="question9" id="q92" value="2">
+                <label for="q92" >Homecoming</label><br>
+                <input type="radio" name="question9" id="q93" value="3">
+                <label for="q93" >Revolution</label><br>
+                <input type="radio" name="question9" id="q94" value="4">
+                <label for="q94" >Renaissance</label><br>     
+            </div>
+            <span class="feedback"></span>
+            <div class="btn">
+                <input type="button"  class="nxt_btn" onclick="next(9);" value="Next">
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="header">
+                    <p class="question">What was the name of the song with the lyric "Perfection is a disease of a nation"?</p>
+                </div>
+                <div>
+                    <input type="radio" name="question10" id="q101" value="1">
+                    <label for="q101" >XO</label><br>
+                    <input type="radio" name="question10" id="q102" value="2">
+                    <label for="q102" >Pretty Hurts</label><br>
+                    <input type="radio" name="question10" id="q103" value="3">
+                    <label for="q103" >Drunk in Love</label><br>
+                    <input type="radio" name="question10" id="q104" value="4">
+                    <label for="q104" >Sweet Dreams</label><br>   
+                </div>
+                <span class="feedback"></span>
+                <div class="btn">
+                    <input type="button" class="nxt_btn" onclick="finalresult(form);" value="Submit">
+                 </div>  
+                 <p class="score_box">
+                    <strong>Your Score</strong>:
+                    <span id="total_score"></span>
+                </p>                      
+        </div> 
+
+        
+        
+    </form> 
+    
+  
+    </div>
+    <script>
+
+        function startquiz(){//display first block of question  
+        document.getElementsByClassName('container')[0].style.display="block";  
+    }
+       
+        
+        function next(id){
+            document.getElementsByClassName('container')[id - 1].style.display="block";
+            document.getElementsByClassName('container')[id].style.display="block";
+        }
+
+
+        function getRadioValue(radioArray) {
+            var score=0;
+            for ( let i = 0; i < radioArray.length; i++ ) {
+                 if ( radioArray[ i ].checked ) { 
+                    return radioArray[i].value; }
+                }
+            return "5"; 
+        }
+
+    
+    function finalresult(formData){
+        
+         let score = 0;   
+         const useranswer = [];
+         const correct_answer = [1,2,3,1,4,1,1,2,4,2]
+
+         useranswer.push(parseInt(getRadioValue(formData.question1)));
+         useranswer.push(parseInt(getRadioValue(formData.question2)));
+         useranswer.push(parseInt(getRadioValue(formData.question3)));
+         useranswer.push(parseInt(getRadioValue(formData.question4)));
+         useranswer.push(parseInt(getRadioValue(formData.question5)));
+         useranswer.push(parseInt(getRadioValue(formData.question6)));
+         useranswer.push(parseInt(getRadioValue(formData.question7)));
+         useranswer.push(parseInt(getRadioValue(formData.question8)));
+         useranswer.push(parseInt(getRadioValue(formData.question9)));
+         useranswer.push(parseInt(getRadioValue(formData.question10)));
+         
+
+         for( let i = 0; i < 10; i++ ) {
+            if (useranswer[i]==correct_answer[i]){
+                document.getElementsByClassName("feedback")[i].classList.add("correct");
+                document.getElementsByClassName("feedback")[i].innerHTML=('&checkmark;' + '  ' + 'Great Job !!! ');
+                score+=2;
+            }  
+            else if (useranswer[i]==5){
+                document.getElementsByClassName("feedback")[i].classList.add("noanswer");
+                document.getElementsByClassName("feedback")[i].innerHTML=('No answer !');  
+            }
+            
+            else {
+                document.getElementsByClassName("feedback")[i].classList.add("incorrect");
+                document.getElementsByClassName("feedback")[i].innerHTML=('&cross;' + '  ' +'Your answer was incorrect');
+                score-=1;
+            }
+         }
+
+        document.getElementById("total_score").innerHTML= score;
+        if (score<10){
+            document.body.style.backgroundColor="#3F3351";
+        }
+        else if(score<20){
+            document.body.style.backgroundColor="#A8A4CE";
+        }
+        else if(score==20){
+            document.body.style.backgroundColor="#D6E5FA";
+        }
+    } 
+
+   
+    
+    
+    </script>
+
+<a href="PageEditor.html" id="pe" >Page Editor</a>
+</body>
+</html>
+
+

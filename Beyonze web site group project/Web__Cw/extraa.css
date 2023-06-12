@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+html{
+	font-size:62.5%;
+	scroll-behaviour:smooth;
+	scroll-padding-top:7rem;
+}
+.heading{
+	color:white;
+	font-size:300%;
+	font-family: 'Poppins', sans-serif;
+	text-align:center;
+	text-transform:uppercase;
+	
+	
+}
+.icon-img{
+	width:120px;
+	height:100px;
+	text-align:center;
+	margin-left:700px;
+}
+.footer{
+	background:transparent;
+}
+.footer .box-container{
+	display:grid;
+	grid-template-columns:repeat(auto-fit,minmax(25rem,1fr));
+	gap:1.5rem;
+}
+.footer .box-container .box h3{
+	font-size:30px;
+	color:purple;
+	padding:1rem 0;
+	margin-top:50px;
+}
+.footer .box-container .box h3 i{
+	color:purple;
+	
+}
+.footer .box-container .box h2{
+	font-size:16px;
+	font-weight:none;
+	margin-top:10px;
+	color:#808080;
+	font-style:none;
+	padding:.5px;
+}
+ h3{
+	font-size:30px;
+	color:purple;
+	padding:1rem 0;
+	margin-top:0px;
+}
+
+.footer .box-container .box a{
+	display;block;
+	font-size:1.5rem;
+	color:#808080;
+	margin-top:5px;
+	padding:1rem 0;
+	line-height:4rem;
+	text-decoration: none;
+	
+}
+.footer .box-container .box a:hover{
+	color:purple;
+	cursor:pointer;
+	
+	
+}
+.footer .box-container .box a i{
+	color:purple;
+	padding-right:.5rem;
+}
+.footer .box-container .box a:hover i{
+	padding-right:2rem;
+}
+.footer .box-container .box p{
+	line-height:1.8rem;
+	font-size:1.5rem;
+	color:black;
+	padding:1rem 0;
+}
+.footer .box-container .box  .share a{
+	height:2rem;
+	width:4rem;
+	line-height:4rem;
+	border-radius:.5rem;
+	font-size:3rem;
+	margin-left:4rem;
+	background:transparent;
+	color:purple;
+	margin-top:20x;
+	
+}
+
+.footer .box-container .box  .share a:hover{
+	background:purple;
+	color:#fff;
+}
+.footer .box-container .box .sub{
+	font-size:20px;
+	font-family:Helvetica, sans-serif;
+	color:black;
+	}
+.footer .box-container .box .email{
+	width:90%;
+	margin:.7rem 0;
+	padding:1rem;
+	border-radius:.5rem;
+	background:#eee;
+	font-size:1.6rem;
+	color:black;
+	text-transform:none;
+}
+.footer .box-container .box .payment-img{
+	
+	margin-top:.5rem;
+	height:13rem;
+	width:30rem;
+	
+}
+
+
+.btn{
+	margin-top:.5rem;
+	display:inline-block;
+	padding:.8rem 3rem;
+	font-size:1.7rem;
+	border: black;
+	background:transparent;
+	color:black;
+	cursor:pointer;
+	outline-style: outset;
+	
+}
+.btn:hover{
+	background:purple;
+	color:white;
+}
+.footer .box-container .box  .share .read{
+	color:black;
+	font-size:15px;
+	margin-left:-7px;
+	
+	
+}
+.footer .box-container .box  .share .read:hover{
+	color:purple;
+	font-size:15px;
+	background:transparent;
+	
+	
+}
+.footer .box-container .box  .share .about{
+	font-size:16px;
+	
+}
+
+input[type="submit"] {
+	margin-top:.5rem;
+	display:inline-block;
+	padding:.8rem 3rem;
+	font-size:1.7rem;
+	border: black;
+	background:transparent;
+	color:black;
+	cursor:pointer;
+	outline-style: outset;
+}
+input[type="submit"]:hover{
+	background-color:purple;
+	color:#fff;
+	
+}
+.edit{
+	color:black;
+	font-size:18px;
+	text-align:right;
+	margin-left:650px;
+	margin-top:5px;
+	font-weight:bold;
+	text-decoration: none;
+	
+	
+}
+.edit:hover{
+	color:purple;
+	cursor:pointer;
+	
+}
+.top{
+  text-decoration:none;
+  font-size:17px;
+  color:black;
+  font-weight:bold;
+  }
+  .top:hover{
+	color:purple;
+	cursor:pointer;
+	
+}

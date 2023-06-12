@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ecommerce</title>
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<link rel="stylesheet" href="products.css">
+<link rel="stylesheet" href="navbar.css">
+<script src="shop.js" defer></script>
+<script src="scriptnew.js" defer></script>
+<style>
+ body{
+		background-image:url("sa10.jpg");
+		background-repeat:no-repeat;
+		background-size:1600px 650px;
+	}
+.glow {
+  font-size: 40px;
+  color: #fff;
+  text-align: left;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #B54EC0, 0 0 30px #B54EC0, 0 0 40px #B54EC0, 0 0 50px #B54EC0, 0 0 60px #B54EC0;
+    }
+    to {
+    text-shadow:  0 0 50px #280137, 0 0 40px #FF10F0, 0 0 50px #280137., 0 0 60px #280137., 0 0 70px #280137., 0 0 80px #280137.;
+    }
+  }
+	.edit{
+	color:black;
+	font-size:18px;
+	text-align:right;
+	margin-left:650px;
+	margin-top:5px;
+	font-weight:bold;
+	text-decoration: none;
+	}
+.edit:hover{
+	color:purple;
+	cursor:pointer;
+	}
+	.top{
+  text-decoration:none;
+  font-size:17px;
+  color:black;
+  font-weight:bold;
+  }
+  .top:hover{
+	color:purple;
+	cursor:pointer;
+	
+}
+</style>
+
+
+</head>
+<body>
+<header class="header">
+<h1 class="glow">BEYONCE</h1>
+<nav class="nav">
+		<div class ="navbar">
+			<ul>
+				<div class="icon">
+					
+						<li><a href ="homepage.html"  class ="box"><i class="fa fa-fw fa-home " id="n"></i>   Home</a></li>
+					<li><a href ="NewQuiz.html" class ="box "><i class="fa fa-trophy "id ="n"></i>  Quiz</a></li>
+					<li><a href ="query.html" class ="box "><i class="fa fa-question-circle "id="n"  ></i>   Query form</a></li>
+					<li><a href ="prodcuts.html" class ="box "><i class="fa fa-shopping-cart " id="n"></i>  Shop</a></li>				
+					<li><a href ="Student Details.html "class ="box "><i class="fa fa-users "id="n" ></i> About us</a></li>			
+					<li><a href ="# "class ="box "><i class="fa fa-chevron-circle-down" id="n"></i> Extra content</a>
+					<ul>
+						<li><a href ="extraContent.html"  class ="box"> Student 1</a></li>
+						<li><a href ="extra.html" class ="box ">Student 2</a></li>
+						<li><a href ="Student 3 extra content.html" class ="box ">Student 3</a></li>
+						<li><a href ="aboutus.html" class ="box "> Student 4</a></li>
+					</ul>
+				</div>
+			</ul>
+		</div>
+    </nav>
+
+<div class="icons">
+<div class="fas fa-search" id="search-btn"></div>
+<div class="fas fa-shopping-cart" id="cart-btn"></div>
+<div class="fas fa-user" id="login-btn"></div>
+</div>
+<form action="" class="search-form">
+<input type="search" id="search-box" placeholder="Search here..">
+<label for="search-box" class="fas fa-search"></label>
+</form>
+
+<div class="shopping-cart">
+
+<div class="content">
+
+
+</div>
+
+
+
+<div class="total">
+<div class="total-title">Total</div>
+<div class="total-price"></div>
+</div>
+
+<button type="button" class="btn" onclick="window.location.href='file:///C:/Users/AADHIL/Desktop/w1899315-20211257/Personal.html';">checkout</button>
+</div>
+
+
+
+<form action="" class="login-form">
+<h3>login now</h3>
+<input type="email" placeholder="Your email" class="box">
+<input type="password" placeholder="Your password" class="box">
+<p>forget your password <a href="#">Click here</a></p>
+<p>dont have an account<a href="#">Create now</a></p>
+<input type="submit" placeholder="Login now" class="btn">
+
+</form>
+</header>
+
+<section class="home" id="home">
+</section>   
+<section class="products" id="products">
+<h1 class="heading">Our products</h1>
+<div class=" product">
+
+<div class=" box">
+
+<img src="cl.jpg" alt="" class="product-img" >
+<h3 class="product-title">Beyonce:perfume</h3>
+<div class="price">$30</div>
+<button type="button" class="button">add to cart</button>
+</div>
+
+<div class=" box">
+<img src="Merch.jpg" alt="" class="product-img">
+<h3 class="product-title">Beyonce:Merch</h3>
+<div class="price">$30</div>
+<button type="button" class="button">add to cart</button>
+</div>
+<div class=" box">
+<img src="logo.png" alt="" class="product-img">
+<h3 class="product-title">Beyonce</h3>
+<div class="price">$30</div>
+<button type="button" class="button">add to cart</button>
+</div>
+
+<div class=" box">
+<img src="lm.jpg" alt="" class="product-img">
+<h3 class="product-title">Lemonade</h3>
+<div class="price">$50</div>
+<button type="button" class="button">add to cart</button>
+</div>
+
+<div class=" box">
+<img src="sasha.jpg" alt="" class="product-img">
+<h3 class="product-title">I am Sasha Fierce [Platinum]</h3>
+<div class="price">$100</div>
+<button type="button" class="button">add to cart</button>
+</div>
+
+</div>
+
+<div class="product">
+
+<div class=" box">
+<img src="WT2.jpg" alt="" class="product-img">
+<h3 class="product-title">I am World Tour</h3>
+<div class="price">$130</div>
+<button type="button" class="button">add to cart</button>
+</div>
+<div class="box">
+<img src="bl.jpg" alt="" class="product-img">
+<h3 class="product-title">Live experience</h3>
+<div class="price">$120</div>
+<button type="button" class="button">add to cart</button>
+</div>
+<div class="box">
+<img src="ac.jpg" alt="" class="product-img">
+<h3 class="product-title">Beyonce:Irreplaceable</h3>
+<div class="price">$75</div>
+<button type="button" class="button">add to cart</button>
+</div>
+<div class=" box">
+<img src="mug.jpg" alt="" class="product-img">
+<h3 class="product-title">Beyonce:Mug</h3>
+<div class="price">$2 0</div>
+<button type="button" class="button">add to cart</button>
+</div>
+
+</div>
+</section>
+
+
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<a href="file:///C:/Users/AADHIL/Desktop/w1899315-20211257/PageEditor.html" class="edit"><i class="edit"></i>Page Developer</a><br>
+<a href="#top" class="top">To Top</a>
+</body>
+</html>

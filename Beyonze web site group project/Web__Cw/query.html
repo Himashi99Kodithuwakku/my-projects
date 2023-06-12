@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<html lang ="en">
+<head>
+	<meta charset ="UTF-8">
+	<title>Query Form</title>
+	<link rel ="stylesheet" href="query.css">
+	<link rel ="stylesheet" href ="navbar.css">
+	<script src="query.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	
+	
+</head>
+<body>
+	<h2 class="glow">BEYONCÉ</h2>
+    <nav class="nav">
+		<div class ="navbar">
+			<ul>
+				<div class="icon">
+					
+					<li><a href ="homepage.html"  class ="box"><i class="fa fa-fw fa-home " id="n"></i>   Home</a></li>
+					<li><a href ="NewQuiz.html" class ="box "><i class="fa fa-trophy "id ="n"></i>  Quiz</a></li>
+					<li><a href ="query.html" class ="box "><i class="fa fa-question-circle "id="n"  ></i>   Query form</a></li>
+					<li><a href ="prodcuts.html" class ="box "><i class="fa fa-shopping-cart " id="n"></i>  Shop</a></li>				
+					<li><a href ="Student Details.html "class ="box "><i class="fa fa-users "id="n" ></i> About us</a></li>			
+					<li><a href ="# "class ="box "><i class="fa fa-chevron-circle-down" id="n"></i> Extra content</a>
+					<ul>
+						<li><a href ="exraContent.html"  class ="box"> Student 1</a></li>
+						<li><a href ="extra.html" class ="box ">Student 2</a></li>
+						<li><a href ="Student 3 extra content.html" class ="box ">Student 3</a></li>
+						<li><a href ="aboutus.html" class ="box "> Student 4</a></li>
+					</ul>
+				</div>
+			</ul>
+		</div>
+    </nav>
+	
+	
+	<div class="container">
+		<div class ="form-box">
+			<div class="left"></div>
+			<div class ="right">
+				<form id ="form1"  name ="form1" method ="post"  action ="#" Onsubmit="return validation();"   >
+				<h3>Query Form</h3>
+						<input type ="text" class="field" name="name" id ="name" placeholder="Enter your name">
+						<input type ="email" class="field"  name="email" id ="email" placeholder="example@email.com">
+						<select id ="choose" name="choose" >
+							<option value ="">Select the subject</option>
+							<option value="Tickets">Tickets</option>
+							<option value ="Payments">Payments</option>
+							<option value= "Shows">Shows</option>
+							<option value= "Delivery">Delivery</option>
+							<option value= "Products">Products</option>
+							<option value= "Other">Other</option>
+						</select><br>
+					
+						<textarea class="field " name ="msg" id ="msg" placeholder="Message"></textarea>
+						
+						<div class ="btn-box">
+							<button type="button" id="view"   onclick="viewQ()">View Query</button>
+							<button type="submit" id="check"  onsubmit="validation()">Check</button>
+				
+						</div>
+						
+		
+		       </form>
+				<form id ="form2" name="form2"  Onsubmit=" sendemail();"  >
+					<h3>Query Form</h3>
+					<p id ="qdetail" class="qdetails"></p>
+					<div class ="btn-box">
+						<button type="button" id="edit" onclick="editQ()">Edit</button>
+						<button type="submit" id="send" onsubmit="sendemail()">Send</button>
+				
+					</div>
+			  
+				</form>
+			  
+		
+		
+		</div>
+		
+		</div>
+	</div>
+	
+	
+			<div class= "editor">
+			<h2><a href ="editorpg.html"  class ="box"> Himashi Kodithuwakku</a></h2>
+			</div>
+			
+		<script>
+		
+		var form1 = document.getElementById("form1");
+		var form2 = document.getElementById("form2");
+		var view= document.getElementById("view");
+		var check= document.getElementById("check");
+		var edit= document.getElementById("edit");
+		var send= document.getElementById("send");
+		const output=document.getElementById("qdetail");
+
+
+
+		view.onclick =function(){	
+		
+		const name =document.getElementById("name");
+		const email =document.getElementById("email");
+		const subject =document.getElementById("choose");
+		const msg =document.getElementById("msg");
+		
+	
+		form1.style.left ="-450px";
+		form2.style.left ="40px";
+		output.innerHTML="<br><br>Name: " + name.value+"<br><br>" + "Email:" +email.value +"<br><br>"+"Subject:" +subject.value+"<br><br>"+"Details:" +msg.value;
+			
+			
+		}	
+		
+		
+		edit.onclick =function(){
+	
+		form1.style.left ="40px";
+		form2.style.left ="450px";
+			
+		}
+
+      
+		
+		
+		
+		
+		
+		
+	
+		</script>
+		
+</body>
+</html>

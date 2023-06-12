@@ -1,0 +1,119 @@
+
+body{
+    background-color:#000000;
+}
+
+.quiz{
+    display:block;
+    padding: 50px;
+    border-radius:5px;
+}
+.container{
+    display: none;
+    border: 3px rgb(165, 161, 161) solid;
+    margin:50px 380px 20px 280px;
+    border-radius: 10px;
+    padding:50px;
+    background-color: rgb(255, 255, 255);
+
+}
+    
+.correct{
+    color: green;
+    float: right;
+    size: 50px;
+    padding:15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.incorrect{
+    color:red;
+    float: right;
+    size: 50px;
+    padding:15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.noanswer{
+    color:rgb(13, 18, 152);
+    float: right;
+    size: 50px;
+    padding:15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.str_btn  {
+	border-radius:5px;
+    margin:20px 0px 10px 280px;
+	border-radius:5px;
+	cursor:pointer;
+	background-color:rgb(154, 108, 199);
+	color:rgb(0, 0, 0);
+	border: 2px rgb(165, 161, 161) solid;
+	display:block;
+	width:53%;
+    cursor:pointer;
+	font-size:30px;
+	padding : 15px;
+    font-weight: bold;
+}
+.nxt_btn{
+    margin:30px 0px 10px 0px;
+	border-radius:5px;
+	cursor:pointer;
+	background-color: #748DA6;
+	color:rgb(0, 0, 0);
+	border:none;
+	display:block;
+	width:100%;
+    cursor:pointer;
+	font-size:20px;
+	padding : 15px;
+    font-weight: bold;
+    opacity: 0.85;
+}
+
+.header{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(0, 0, 0);
+}
+
+ label,input{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-right: 250px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color:rgb(0, 0, 0);
+ }
+ input{
+    margin:17px;
+   
+ }
+
+ .score_box{
+    border: 2px rgb(44, 13, 61) solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(202, 245, 245);
+}
+
+#pe{
+    font-size: 20px;
+    position: fixed;
+    bottom: 25px;
+    color: rgb(255, 255, 255);
+}
+
+ a:hover{
+    color:blueviolet;
+}

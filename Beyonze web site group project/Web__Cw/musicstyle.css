@@ -1,0 +1,163 @@
+ /*
+    css styling for extra-content page. 
+    It is about the artist upcoming album.
+    html doc : music.html
+*/
+ 
+        * {
+            padding: 0;
+            margin: 10px 10px 20px 10px;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .container1 {
+            height: 100%;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 25px;
+        }
+ 
+        .content {
+            width: 100%;
+            position: absolute;
+        }
+       
+        .title {
+            font-size: 60px;
+            color: rgb(220, 201, 205);
+            text-align: center;
+        }
+ 
+        .playlist1 {
+            width: 500px;
+            display: flex;
+            align-items: center;
+            margin: auto;
+        }
+ 
+        .playlist1 p {
+            text-align: left; 
+            font-size: 20px; 
+            font-weight: bold;
+            color: rgb(230, 215, 215); 
+              
+        }
+ 
+        .image{
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+           
+        }
+
+        .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;    
+        }
+
+        .container1:hover .image {
+         opacity: 0.6;
+         }
+
+        .container1:hover .middle {
+         opacity: 1;
+         }
+
+        #icon {
+          background-color: #000000;
+          padding: 16px 32px;
+          cursor: pointer;
+        }
+
+        p {
+            color: rgb(232, 232, 232);
+            font-family: 'Times New Roman';
+            text-align: center;
+            background-color: black;
+            font-size: 25px;
+            padding-top: 10px;
+        }
+
+        .img {
+            position: relative;
+            border: rgb(78, 11, 101) solid 3px;
+        }
+
+        .gallery h2{
+            position: relative;
+            color: rgb(0, 0, 0);
+            background-color:  rgb(223, 205, 205);
+            text-align: center;
+            font-size: 25px;
+            padding-top: 10px;
+
+        }
+
+        .gallery{
+            display:inline-flex;
+            margin: 675px 160px 0px 100px;
+            background-color: rgb(223, 205, 205);
+            border:rgb(201, 113, 235) solid 5px;
+        }
+        .container2{
+            margin:10px;
+        }
+
+        dl{
+            color: rgb(0, 0, 0);
+            text-align: justify;
+            text-align: center;
+        }
+
+        .container3  {
+            position: relative;
+            margin: auto;
+            width: 50%;
+            padding:20px;
+        }
+
+       dt{
+        font-size: 28px;
+        padding-top : 25px;
+        padding-bottom: 15px;
+        font-weight: bold;
+        border-radius: 16px;
+        text-align: center;
+        color: rgb(201, 113, 235);
+       }
+
+       dd{
+        font-size: 21px;
+        padding: 20px;
+        font-style: oblique;
+        background-color: rgb(201, 176, 225);
+        border-radius: 5px;
+        font-weight:lighter;
+       }
+       ul li{
+        display: inline;
+       }
+
+       a{
+        font-size: 20px; 
+        color: rgb(128, 69, 224);
+        }
+
+        a:hover { color: whitesmoke}
+
+       .header{
+        border:   rgb(122, 12, 137) 4px solid;
+        border-radius: 5px;
+        padding: 20px;   
+       }
+       
+       .contentQA{
+        border:rgb(122, 12, 137) 4px solid;
+        border-radius: 5px;
+        padding: 10px;
+       }

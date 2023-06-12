@@ -1,0 +1,310 @@
+
+body{
+    margin:0;
+	padding:0;
+	background-image:url("images/back14.jpg");
+	height:100vh;
+	background-size:cover;
+	background-position:center center;	
+	background:linear-gradient(135deg, #05073a ,#7D0552);
+	
+}
+.h hr  {
+  border: 20px solid #C25283;
+}
+
+.h1 hr{
+	border: 20px solid #C25283;
+	top:40%;
+	
+}
+
+.headtext{
+	position:absolute;
+	top:15%;
+	left:10%;
+	font-size:30px;
+	transform:translate(-50%,-50%);
+	font-family:'Staatliches', cursive;
+	color:#E5E4E2;
+}
+
+img {
+	width:150px;
+	height:200px;
+	
+}
+.imag-box img {
+	display:inline-block;
+
+	
+}
+	
+
+.container {
+	width:90%;
+	height:80%;
+	align-items:center;
+	display:flex;
+	justify-content:space-between;
+	
+}
+
+.cover{
+	position:relative;
+	width:90%;
+	height:50%;
+}
+
+.scroll-img {
+	width:100%;
+	height:100%;
+	display:flex;
+	justify-content:left;
+	align-items:center;
+	overflow:auto;
+	position:relative;
+	scroll-behavior: smooth;
+	
+}
+
+.imag-box{
+	min-width:100px;
+	
+
+	box-shadow: 0 0 20px rgba (0,0,0, .1);
+	transition:1s;
+
+}
+
+.scroll-img::-webkit-scrollbar {
+	-webkit-appearance:none;
+}
+
+.imag-box:hover{
+	transform:scale(1.25);
+	z-index:2;
+	
+}
+
+.iconss {
+	color:#B6B6B4;
+	background:transparent;
+	font-size:50px;
+	outline:none;
+	border:none;
+	padding:opx 20px;
+	cursor;pointer;
+}
+
+.iconss:hover{
+	color:#F2A2E8;
+}
+
+.trailer{
+		display:inline-block;
+		border:2px solid #9D00FF;
+		border-radius:30px;
+		
+		padding:10px 25px;
+		margin:2px;
+		top:60%;
+		align-items:center;
+		background-color:#9D00FF;
+}
+
+.trailer{
+	font-family:'Poppins', sans-serif;
+	color:#DCD0FF;
+}
+
+.trailer:hover{
+	background-color:#B666D2;
+	color:#000;
+	font-weight:bold;
+	transform:scale(1.25);
+	z-index:2;
+}
+.t {
+	width:800px;
+	position:absolute;
+	top:105%;
+	left:44%;
+	font-size:30px;
+	transform:translate(-50%,-50%);
+	font-family:'Staatliches', cursive;
+	color:#E5E4E2;
+}
+	
+.filmography {
+	
+	top:150%;
+}
+
+
+
+.filmo-text1{
+	width:800px;
+	position:absolute;
+	top:130%;
+	left:44%;
+	font-size:30px;
+	transform:translate(-50%,-50%);
+	font-family:'Staatliches', cursive;
+	color:#E5E4E2;
+}
+
+.filmo-text2{
+	width:800px;
+	position:absolute;
+	top:130%;
+	left:95%;
+	font-size:30px;
+	transform:translate(-50%,-50%);
+	font-family:'Staatliches', cursive;
+	color:#E5E4E2;
+}
+
+.editor{
+	width:100%;
+	position:absolute;
+	top:200%;
+	left:50%;
+	font-size:40px;
+	transform:translate(-50%,-50%);
+	font-family:'Poppins', sans-serif;
+	color:#E5E4E2;
+	background-color:#9E7BFF;
+	text-align:center;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+.editor a {
+	text-decoration:none;
+}
+
+.editor a :hover{
+	color:#;
+	
+}
+.starred{
+	width:370px;
+	position:absolute;
+	top:158%;
+	left:24%;
+	font-size:16px;
+	transform:translate(-50%,-50%);
+	color:#fff;
+	font-family:'Poppins', sans-serif;
+	font-weight: bold ;
+	border: 1px solid #737CA1;
+	padding: 10px 10px;
+	align-items:center;
+
+}
+.directed{
+	width:370px;
+	position:absolute;
+	top:148%;
+	left:74%;
+	font-size:16px;
+	transform:translate(-50%,-50%);
+	color:#fff;
+	font-family:'Poppins', sans-serif;
+	font-weight: bold ;
+	border: 1px solid #737CA1;
+	padding: 10px 10px;
+	align-items:center;
+	
+}
+.about{
+	width:970px;
+	position:absolute;
+	top:205%;
+	left:46%;
+	font-size:16px;
+	transform:translate(-50%,-50%);
+	color:#fff;
+	font-family:'Poppins', sans-serif;
+	font-weight: none ;
+	border: 1px solid #737CA1;
+	padding: 10px 10px;
+	align-items:center;
+}
+
+.starred ul {
+	list-style:none;
+	padding:0;
+	
+
+}
+.directed ul {
+	list-style:none;
+	padding:0;
+	
+}
+.starred  ul li {
+	list-style-type:none;
+	padding: 3px 5px;
+}
+
+.directed ul li {
+	list-style-type:none;
+	padding: 3px 5px;
+}
+
+.starred a{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	margin:0 px;
+	text-transform: uppercase;
+	font-size:15px;
+	cursor:pointer;
+	
+}	
+.directed a{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	margin:0 px;
+	text-transform: uppercase;
+	font-size:15px;
+	cursor:pointer;
+	
+}	
+
+.starred a:hover {
+	color:#F433FF;
+}		
+.directed a:hover {
+	color:#F433FF;
+}	
+
+
+
+
+	
+.glow{
+	font-family:'Poppins', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #B54EC0, 0 0 30px #B54EC0, 0 0 40px #B54EC0, 0 0 50px #B54EC0, 0 0 60px #B54EC0;
+}
+  to {
+    text-shadow:  0 0 50px #280137, 0 0 40px #FF10F0, 0 0 50px #280137., 0 0 60px #280137., 0 0 70px #280137., 0 0 80px #280137.;
+}
+
+
+
+
+
